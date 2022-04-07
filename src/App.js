@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 
 // global variables to change where necessary
-const DROPDOWN_API_ENDPOINT = 'https://8qjokflqjg.execute-api.us-east-1.amazonaws.com/prod'; // TODO The demo files GET/POST REST API
-const ML_API_ENDPOINT = 'https://0av6gfpxtf.execute-api.us-east-1.amazonaws.com/prod/'; // TODO The handwritten digit inference POST REST API 
+const DROPDOWN_API_ENDPOINT = 'https://0av6gfpxtf.execute-api.us-east-1.amazonaws.com/prod'; // TODO The demo files GET/POST REST API (module10)
+const ML_API_ENDPOINT = 'https://8qjokflqjg.execute-api.us-east-1.amazonaws.com/prod'; // TODO The handwritten digit inference POST REST API  (module6)
 
 
 // atob is deprecated but this function converts base64string to text string
